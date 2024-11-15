@@ -1,5 +1,8 @@
 FROM oryd/kratos:v1.3
 
+ARG TARGETPLATFORM
+ARG BUILDPLATFORM
+
 USER root
 
 RUN apk add --no-cache gettext inotify-tools
