@@ -1,4 +1,4 @@
-FROM oryd/kratos:v1.3
+FROM oryd/kratos:v1.3.1
 
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM
